@@ -1,4 +1,6 @@
-<img src="nodes/Vidext/vidext.svg" alt="Vidext Logo" width="100">
+<div align="center">
+  <img src="nodes/Vidext/vidext.svg" alt="Vidext Logo" width="100">
+</div>
 
 # n8n-nodes-vidext
 
