@@ -2,8 +2,7 @@
   <img src="nodes/Vidext/vidext.svg" alt="Vidext Logo" width="100">
 </div>
 
-# n8n-nodes-vidext
-
+# vidext-n8n-node
 This is the official [n8n](https://n8n.io) node for [Vidext Boost](https://vidext.io/boost). It provides n8n integration for Vidext Boost, allowing you to trigger workflows when a Vidext session ends.
 
 ## Features
