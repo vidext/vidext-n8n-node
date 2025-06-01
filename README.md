@@ -1,4 +1,4 @@
-![Vidext Logo](https://www.vidext.io/images/vidext-logo.png)
+![Vidext Logo](nodes/Vidext/vidext.svg)
 
 # n8n-nodes-vidext
 
