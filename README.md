@@ -1,4 +1,4 @@
-![Vidext Logo](nodes/Vidext/vidext.svg)
+<img src="nodes/Vidext/vidext.svg" alt="Vidext Logo" width="100">
 
 # n8n-nodes-vidext
 
