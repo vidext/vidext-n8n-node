@@ -107,6 +107,19 @@ export class VidextSessionEndTrigger implements INodeType {
 	async webhook(this: IWebhookFunctions): Promise<IWebhookResponseData> {
 		try {
 			const req = this.getRequestObject();
+
+			const credentials = await this.getCredentials('vidextApi');
+			const expectedApiKey = credentials.apiKey as string;
+			const receivedApiKey = req.headers['x-api-key'] as string;
+
+			if (!receivedApiKey || receivedApiKey !== expectedApiKey) {
+				this.logger.error('Invalid or missing API Key in webhook request');
+				throw new NodeApiError(this.getNode(), { message: 'Unauthorized' }, {
+					message: 'Invalid or missing API Key',
+					httpCode: '401',
+				});
+			}
+
 			let webhookData = req.body;
 			if (!Array.isArray(webhookData)) {
 				webhookData = [webhookData];
