@@ -1,6 +1,6 @@
 {
 	"name": "@vidext/n8n-nodes-boost",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Vidext Boost n8n node",
 	"keywords": [
 		"n8n-community-node-package"
