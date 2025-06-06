@@ -2,7 +2,7 @@
   <img src="nodes/Vidext/vidext.svg" alt="Vidext Logo" width="100">
 </div>
 
-# vidext-n8n-node
+# @vidext/n8n-nodes-boost
 This is the official [n8n](https://n8n.io) node for [Vidext Boost](https://vidext.io/boost). It provides n8n integration for Vidext Boost, allowing you to trigger workflows when a Vidext session ends.
 
 ## Features
@@ -24,13 +24,13 @@ This node allows you to trigger an n8n workflow when a session ends in Vidext Bo
 Install this node package in your n8n instance:
 
 ```bash
-npm install vidext-n8n-node
+npm install @vidext/n8n-nodes-boost
 ```
 
 Then add the following line to your n8n `.env` file:
 
 ```
-N8N_CUSTOM_EXTENSIONS=vidext-n8n-node
+N8N_CUSTOM_EXTENSIONS=@vidext/n8n-nodes-boost
 ```
 
 Restart your n8n instance and the Vidext nodes will be available in your workflow editor.
